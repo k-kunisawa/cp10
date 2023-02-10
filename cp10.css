@@ -10,9 +10,16 @@ header{
   background-color: orange;
 }
 
+.main-content{
+
+}
+
 .box1{
   width: 90%;
   background-color: #dcdcdc;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .box2{
