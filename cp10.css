@@ -10,8 +10,9 @@ header{
   background-color: orange;
 }
 
-.main-content{
-
+.text{
+  background-color: orange;
+  color: #FFF;
 }
 
 .box1{
@@ -22,14 +23,25 @@ header{
   margin-top: 50px;
 }
 
+.image1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size:cover;
+  background-position: center;
+}
+
 .box2{
   width: 90%;
   background-color: #dcdcdc;
+  margin:0 auto;
+  margin-bottom: 20px;
 }
 
 .box3{
   width: 90%;
   background-color: #dcdcdc;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 footer{
