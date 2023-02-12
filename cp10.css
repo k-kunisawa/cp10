@@ -10,7 +10,9 @@ header{
   background-color: orange;
 }
 
+
 .text{
+  display: inline-block;
   background-color: orange;
   color: #FFF;
 }
@@ -28,6 +30,10 @@ header{
   background-image: url(img/flow01.png);
   background-size:cover;
   background-position: center;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
 }
 
 .box2{
@@ -37,11 +43,33 @@ header{
   margin-bottom: 20px;
 }
 
+.image2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size:cover;
+  background-position: center;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+}
+
 .box3{
   width: 90%;
   background-color: #dcdcdc;
   margin: 0 auto;
   margin-bottom: 50px;
+}
+
+.image3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size:cover;
+  background-position: center;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
 }
 
 footer{
