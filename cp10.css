@@ -77,3 +77,49 @@ footer{
   height: 50px;
   background-color: gray;
 }
+
+@media screen and (max-width:425px){
+  header{
+    width: 100%;
+  }
+
+  .box1{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  .image1{
+  height: 150px;
+    margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.box2{
+  width: 90%;
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+
+ .image2{
+  height: 150px;
+    margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.box3{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.image3{
+  height: 150px;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+}
