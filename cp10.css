@@ -78,7 +78,6 @@ footer{
   background-color: gray;
 }
 
-
 @media screen and (max-width:425px){
   header{
     width: 100%;
@@ -122,6 +121,5 @@ footer{
   margin-left: 10px;
   margin-right: 10px;
 }
-
 
 }
