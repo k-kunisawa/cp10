@@ -5,90 +5,65 @@
 }
 
 header{
-  width: 100%;
   height: 50px;
   background-color: #FF9A4B;
 }
 
 
 .text{
-  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   background-color: #FF9A4B;
   color: #FFF;
 }
 
 h3{
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin:15px 0 5px;
 }
 
-.main-content{
+.main{
   width: 960px;
-  margin:0 auto;
+  margin:50px auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .box1{
   width: 300px;
   background-color: #EEE;
-  margin:50px 15px; 
- 
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+}
+
+.box1:last-child{
+  margin-right: 0;
 }
 
 .image1{
   height: 150px;
   background-image: url(img/flow01.png);
   background-size:cover;
-  background-position: center;
-  margin-top: -10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: block;
-}
-
-.box2{
-  width: 300px;
-  background-color: #EEE;
-  margin:50px 15px; 
- 
- 
+  background-position: bottom;
 }
 
 .image2{
   height: 150px;
   background-image: url(img/flow02.png);
   background-size:cover;
-  background-position: center;
-  margin-top: -10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: block;
-}
-
-.box3{
-  width: 300px;
-  background-color: #EEE;
-   margin:50px 15px; 
- 
+  background-position: bottom;
 }
 
 .image3{
   height: 150px;
   background-image: url(img/flow03.png);
   background-size:cover;
-  background-position: center;
-  margin-top: -10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: block;
+  background-position: bottom;
 }
 
 footer{
-  width: 100%;
   height: 50px;
-  background-color: gray;
+  background-color: #aaa;
 }
 
 @media screen and (max-width:768px){
@@ -96,47 +71,49 @@ footer{
     width: 100%;
   }
   
-  .main-content{
-      flex-wrap: wrap;
+  .text{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #FF9A4B;
+  color: #FFF;
+}
+  .main{
+  flex-wrap: wrap;
+  width: 100%;
+  margin:50px auto ;
+  display: flex;
   }
 
   .box1{
-    width: 90%;
-    margin-bottom: 20px;
-    margin-top: 50px;
+  background-color: #EEE;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
   }
+  
+  .box1:last-child{
+  margin-bottom: 0;
+}
 
   .image1{
   height: 150px;
-    margin-top: -10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.box2{
-  width: 90%;
-  margin:0 auto;
-  margin-bottom: 20px;
+  background-size:cover;
+  background-position: bottom;
 }
 
  .image2{
   height: 150px;
-    margin-top: -10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.box3{
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  background-size:cover;
+  background-position: bottom;
 }
 
 .image3{
   height: 150px;
-  margin-top: -10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  background-size:cover;
+  background-position: bottom;
 }
 
 .footer{
