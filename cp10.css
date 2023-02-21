@@ -36,8 +36,12 @@ h3{
   position: relative;
 }
 
-.box1:last-child{
-  margin-right: 0;
+
+.box3{
+ width: 300px;
+  background-color: #EEE;
+  padding: 10px;
+  position: relative;
 }
 
 .image1{
@@ -71,32 +75,26 @@ footer{
     width: 100%;
   }
   
-  .text{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: #FF9A4B;
-  color: #FFF;
-}
   .main{
   flex-wrap: wrap;
   width: 100%;
-  margin:50px auto ;
-  display: flex;
+  margin :50px auto;
+  display:block; 
   }
 
   .box1{
-  background-color: #EEE;
   margin: 0 auto;
   width: 90%;
-  padding: 10px;
   margin-bottom: 20px;
-  position: relative;
   }
   
-  .box1:last-child{
-  margin-bottom: 0;
-}
+  .box3{
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 0px;
+  
+  }
+  
 
   .image1{
   height: 150px;
