@@ -9,7 +9,6 @@ header{
   background-color: #FF9A4B;
 }
 
-
 .text{
   position: absolute;
   top: 0px;
@@ -71,6 +70,7 @@ footer{
 }
 
 @media screen and (max-width:768px){
+  
   header{
     width: 100%;
   }
@@ -95,7 +95,6 @@ footer{
   
   }
   
-
   .image1{
   height: 150px;
   background-size:cover;
